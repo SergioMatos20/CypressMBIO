@@ -1,14 +1,9 @@
 
- ## About
- 
- --
- 
  ## Technologies
  
  Below are the technologies use to build the application
  
   - [Cypress] (https://www.cypress.io/)
-  - 
 
 ---
 
