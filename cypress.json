@@ -1,0 +1,16 @@
+{
+  "baseUrl" : "https://www.mercedes-benz.co.uk",
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 15000,
+  "taskTimeout":200000,
+  "env":{},
+  "testFiles": [
+    "**/*.feature"
+  ],
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "screenshotsFolder": "cypress/assets/reports/screenshots",
+  "videoCompression": 35,
+  "videosFolder": "cypress/assets/reports/videos",
+  "experimentalSessionAndOrigin": true
+}
