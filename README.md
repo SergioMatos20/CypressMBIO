@@ -34,27 +34,16 @@ $ cd CypressMBIO
 $ npm install
 
 # To start the application
-$ cypress open
+$ npx cypress open
 
 # or you can run the application in headless mode
-$ cypress run --browser chrome
+$ npx cypress run --browser chrome
 #or
-$ cypress run --browser edge
+$ npx cypress run --browser edge
 
 ```
 #
 
-## Make your commit
-
-### *Adds changes*
-
-```bash
-# adds your changes
-$ git add <files directory or .>
-
-# Run command to commit 
-$ git commit
-```
 
 
   
