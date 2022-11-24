@@ -17,7 +17,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v4
         with:
-          install: false
           command:  npx cypress run || npm run posttest
         env:
           CYPRESS_host: api.dev.local
