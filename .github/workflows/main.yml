@@ -8,8 +8,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: npm setup
-        uses: ng-easy/npm-setup@v1.7.2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 19.1.0
+      - name: Install Dependencies and Build React App
+        run: |
+          pwd
+          ls -la
+          npm install
       - name: Cypress run
         uses: cypress-io/github-action@v4
         with:
