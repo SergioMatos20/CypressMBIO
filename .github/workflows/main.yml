@@ -8,13 +8,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          install-command: yarn --frozen-lockfile --silent
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
+      - name: npm setup
+        uses: ng-easy/npm-setup@v1.7.2
       - name: Cypress run
         uses: cypress-io/github-action@v4
         with:
+          install: false
           command: npm run pretest || npm run test
         env:
           CYPRESS_host: api.dev.local
