@@ -1,7 +1,7 @@
 
  ## Technologies
  
- Below are the technologies use to build the application
+ Below are the technologies use to build the applicati on
  
   - [Cypress] (https://www.cypress.io/)
 
